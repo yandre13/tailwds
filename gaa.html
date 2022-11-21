@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <span
+    id="btnModalMante"
+    role="button"
+    class="button-main text-xs font-bold text-white text-center px-10 my-7 lg:max-w-[660px] lg:text-lg lg:mt-12"
+    data-modal="ModalMante"
+    >Las exportaciones de productos básicos en América Latina se han centrado
+    principalmente en los minerales y la agricultura
+    </span>
+  
+  
+  <!-- modal html -->
+
+
+
+  <!-- make modal with onClick-->
+  <script>
+
+    // onload event
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const stylesParent = 'position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 99999; display: flex; justify-content: center; align-items: center;'
+      const stylesChild = 'position: relative; width: 100%; max-width: 720px; background-color: #fff; padding: 20px;'
+      const stylesClose = 'position: absolute; top: -25px; right: -25px; cursor: pointer; width: 50px; height: 50px; background-color: #fff; display: flex; justify-content: center; align-items: center; border: 1px solid #000;'
+
+      const stylesOverlay = 'position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 9999; display: flex; justify-content: center; align-items: center;'
+
+      const modalMante = `
+      <div id="ModalMante" style="display: none;">
+        <div class="Parentsss" style="${stylesParent}">
+          <div class="Childsss" style="${stylesChild}">
+            <div id="btnModalManteClose" style="${stylesClose}" role="button">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_96_2)">
+                <path d="M14.849 12.0003L23.7629 3.08698C24.0793 2.77045 24.0793 2.25823 23.7629 1.94181L22.0593 0.237602C21.9076 0.0859796 21.7017 0.000610352 21.4868 0.000610352C21.2718 0.000610352 21.0659 0.0859796 20.9142 0.237602L12.0003 9.15163L3.08634 0.237602C2.93461 0.0859796 2.72871 0.000610352 2.51375 0.000610352C2.29885 0.000610352 2.0929 0.0859796 1.94122 0.237602L0.23764 1.94181C-0.0788878 2.25823 -0.0788878 2.77045 0.23764 3.08698L9.15156 12.0004L0.238525 20.9127C-0.077846 21.2292 -0.077846 21.7414 0.238525 22.0578L1.94221 23.7621C2.09383 23.9137 2.29978 23.999 2.51474 23.999C2.7297 23.999 2.9356 23.9137 3.08738 23.7621L12.0002 14.8491L20.9131 23.7621C21.0648 23.9137 21.2707 23.999 21.4857 23.999C21.7007 23.999 21.9066 23.9137 22.0582 23.7621L23.7619 22.0578C24.0783 21.7414 24.0783 21.2292 23.7619 20.9127L14.849 12.0003Z" fill="black"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_96_2">
+                <rect width="24" height="24" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+            </div>
+            <div class="min-h-[360px] flex items-center justify-center max-h-[86vh]">
+              <img style="width: 100%;" src="https://pf.honda.com.pe/wp-content/uploads/2022/11/POP-UP_UNDER-CONSTRUCTION-2.jpg" alt="Mapa 2">
+            </div>
+          </div>
+        </div>
+        <div class="ModalOver" style="${stylesOverlay}"></div>
+      </div>`
+      document.body.insertAdjacentHTML('beforeend', modalMante)
+    });
+
+    window.addEventListener('load', () => {
+      const modalBtn = document.querySelector('#btnModalMante')
+      const modal = document.querySelector('#ModalMante')
+      const closeModalBtn = document.querySelector('#btnModalManteClose')
+
+      modalBtn.addEventListener('click', function () {
+        modal.style.display = 'block'
+      })
+
+      closeModalBtn.addEventListener('click', function () {
+        const modal = closeModalBtn.closest('#ModalMante')
+        modal.style.display = 'none'
+      })
+    });
+    
+  </script>
+</body>
+</html>

@@ -27,6 +27,7 @@
 	},
 	"devDependencies": {
 		"concurrently": "^7.4.0",
+		"live-server": "^1.2.2",
 		"npm-watch": "^0.11.0"
 	}
 }

@@ -1,3 +1,96 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.elementor-section.elementor-section-boxed > .elementor-container{
+    max-width: initial;
+}
+.page-header{
+    display: none;
+}
+.elementor-widget-wrap{
+ padding: 0 !important;   
+}
+#top-bar{
+    display: none;
+}
+.myCoaFooter{
+    padding: 40px 30px !important;
+}
+
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Baloo 2", Sans-serif !important;
+  color: #39333f !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Mitr", Sans-serif !important;
+}
+
+.bg-color-text{
+  background: rgba(64, 204, 164, .86) !important;
+}
+
+.bg-sec1{
+  background: url(https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Bloque1.png);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.font-openSans{
+  font-family: 'Open Sans', sans-serif !important;
+}
+.button-main{
+  display: block;
+  background: #fa9600;
+  border-radius: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #fff !important;
+}
+
+
+.accordion {
+  width: 100%;
+  /* max-width: 500px; */
+  overflow: hidden;
+}
+.accordion__intro {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.accordion__content {
+  max-height: 0;
+  overflow: hidden;
+  will-change: max-height;
+  transition: all 0.25s ease-out;
+  opacity: 0;
+}
+.accordion__active .accordion__content {
+  opacity: 1;
+}
+.accordion__active .accordion__intro {
+  transform: rotate(180deg);
+}
+
+
+.scrollBars::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+.scrollBars::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.scrollBars::-webkit-scrollbar-thumb {
+  background-color: #89858a;
+  border-radius: 20px;
+  border: 3px solid #89858a;
+}
