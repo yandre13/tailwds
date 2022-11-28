@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <section class="relative lg:bg-[url(https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/HeroBannerDK.png)] lg:min-h-[500px] lg:bg-no-repeat lg:bg-cover lg:bg-right-top">
+    <section class="relative lg:bg-no-repeat lg:bg-cover lg:bg-right-top">
       <div
        class="lg:container lg:flex lg:items-center lg:absolute lg:inset-x-0 lg:h-full"
       >
@@ -19,29 +19,34 @@
         class="px-9 pt-7 absolute top-0 flex flex-col justify-center lg:top-auto lg:p-0"
        >
         <h2
-         class="text-white font-black text-[28px] leading-[1.1] lg:text-5xl lg:max-w-[564px]"
+         class="text-white font-medium text-[26px] leading-[1.1] lg:text-6xl lg:max-w-[564px]"
         >
          Economía circular en América Latina y el Caribe:
         </h2>
-        <p class="text-white text-base font-extralight pt-1 lg:text-3xl">
+        <h5 class="text-white text-base font-normal pt-1 mt-2 lg:text-xl lg:mt-6">
          Una Visión Compartida
-        </p>
+        </h5>
        </div>
       </div>
       <img
        class="w-full lg:hidden max-h-[500px] object-cover"
        src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/HeroBanner.png"
-       alt="Hero"
+       alt="Una Visión Compartida"
+      />
+      <img
+       class="w-full hidden lg:block object-cover"
+       src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/11/HeroBannerDK.png"
+       alt="Una Visión Compartida"
       />
      </section>
      <section class="relative lg:flex lg:justify-center lg:bg-no-repeat lg:bg-cover lg:bg-center lg:bg-[url(https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Bloque1DK.png)]">
       <div class="p-5 top-0 lg:p-24 bg-sec1 lg:bg-none">
        <p
-        class="text-white bg-color-text text-sm leading-tight p-5 lg:max-w-7xl lg:p-20 lg:text-2xl lg:font-semibold lg:leading-[1.5]"
+        class="text-white bg-color-text text-base leading-tight p-5 lg:p-16 lg:text-xl lg:font-semibold lg:leading-[1.5] lg:max-w-[1140px]"
        >
-        En todo el mundo, hay un impulso cada vez más grande que nos lleva hacia
+        <strong class="font-normal lg:font-semibold">En todo el mundo, hay un impulso cada vez más grande que nos lleva hacia
         una economía circular. Una economía que adopta un modelo de producción y
-        consumo que: <br /><br />
+        consumo que</strong>: <br /><br />
         - Elimina la polución y los residuos, <br />- Hace circular productos y
         materiales, <br />- Regenera la naturaleza.
         <br /><br />
@@ -58,7 +63,7 @@
      <section class="py-10 px-5 lg:flex lg:py-24 lg:container lg:gap-28">
       <div class="lg:w-[804px] lg:flex-1">
        <h2
-        class="text-lg font-medium text-[#5d2182] leading-tight lg:text-[26px] lg:mt-14 lg:mb-12"
+        class="text-base font-medium text-[#5d2182] leading-tight lg:text-[26px] lg:mt-2 lg:mb-12"
        >
         Conociendo la historia: El modelo lineal de desarrollo de América Latina y
         el Caribe
@@ -72,7 +77,7 @@
        </p>
        <span
         role="button"
-        class="button-main text-xs font-bold text-white text-center px-10 my-7 lg:max-w-[660px] lg:text-lg lg:mt-12 btnModalCoa"
+        class="button-main text-sm font-medium text-white text-center px-8 my-7 lg:max-w-[520px] lg:text-base lg:mt-12 btnModalCoa"
         data-modal="ModalCoa1"
         >Las exportaciones de productos básicos en América Latina se han centrado
         principalmente en los minerales y la agricultura
@@ -125,14 +130,14 @@
          <h3 class="text-base font-medium text-[#5d2182] leading-tight lg:text-xl">
           Afecta nuestros sistemas de recursos naturales y a la Biodiversidad
          </h3>
-         <p class="text-xs font-medium leading-tight lg:text-base">
+         <p class="text-sm font-medium lg:text-base">
           9 de los 24 frentes de deforestación están en América Latina.
          </p>
         </div>
        </div>
        <span
         role="button"
-        class="button-main text-xs font-bold text-white text-center px-10 mt-5 mb-10 lg:max-w-[660px] lg:text-lg lg:my-14 lg:h-20 lg:flex lg:items-center lg:justify-center btnModalCoa"
+        class="button-main text-sm font-medium text-white text-center px-8 mt-5 mb-10 lg:max-w-[520px] lg:text-base lg:my-14 lg:h-16 lg:flex lg:items-center lg:justify-center btnModalCoa"
         data-modal="ModalCoa2"
         >Mapa de frentes de deforestación en América Latina y el Caribe
        </span>
@@ -167,7 +172,7 @@
          <h3 class="text-base font-medium text-[#5d2182] leading-tight lg:text-xl">
           Genera residuos y contaminación
          </h3>
-         <p class="text-xs font-medium leading-tight lg:text-xl">
+         <p class="text-sm font-medium lg:text-base">
           Se estima que para 2050, el consumo de materiales domésticos urbanos
           aumente a 25 toneladas per cápita en la región. ¡Este consumo está muy
           por encima del rango de 6 a 8 toneladas per cápita que es considerado
@@ -241,15 +246,15 @@
          <div class="accordion__content">
           <div class="lg:flex lg:gap-40 lg:pr-11">
            <div
-            class="relative mt-6 lg:mt-14 lg:w-[578px] lg:after:w-[2px] lg:after:bg-black lg:after:h-full lg:after:absolute lg:after:top-0 lg:after:right-[-20%]"
+            class="relative mt-6 lg:mt-14 lg:w-[520px] lg:after:w-[2px] lg:after:bg-black lg:after:h-full lg:after:absolute lg:after:top-0 lg:after:right-[-14%]"
            >
-            <p class="text-sm font-normal leading-tight lg:text-2xl">
+            <p class="text-sm font-medium lg:text-base">
              La región aporta aproximadamente el
             </p>
             <p class="font-medium text-[#5d2182] text-[60px] px-5 lg:text-[80px]">
              10%
             </p>
-            <p class="text-sm font-normal leading-tight mb-7 lg:text-2xl">
+            <p class="text-sm font-medium lg:text-base mb-7">
              de las emisiones mundiales de GEI. Esta cifra se ha duplicado desde el
              2000 y seguirá aumentando si el modelo económico no cambia.
             </p>
@@ -265,13 +270,13 @@
           <div class="h-[2px] w-full bg-black my-8"></div>
           <div class="lg:flex lg:gap-40 lg:pr-11">
            <div
-            class="relative lg:w-[578px] lg:after:w-[2px] lg:after:bg-black lg:after:h-full lg:after:absolute lg:after:top-0 lg:after:right-[-20%]"
+            class="relative lg:w-[520px] lg:after:w-[2px] lg:after:bg-black lg:after:h-full lg:after:absolute lg:after:top-0 lg:after:right-[-14%]"
            >
-            <p class="text-sm font-normal leading-tight lg:text-2xl">Más del</p>
+            <p class="text-sm font-medium lg:text-base">Más del</p>
             <p class="font-medium text-[#5d2182] text-[60px] lg:text-[80px]">
              50%
             </p>
-            <p class="text-sm font-normal leading-tight mb-7 lg:text-2xl">
+            <p class="text-sm font-medium lg:text-base mb-7">
              de estas emisiones en la región son causadas por: agricultura, cambios
              en el uso de la tierra, actividades forestales, procesos industriales
              y residuos.
@@ -293,7 +298,7 @@
      <section class="py-10 px-5 relative lg:p-0">
       <div class="relative lg:py-24 lg:container">
        <div class="lg:flex lg:gap-24">
-        <div class="lg:w-[652px]">
+        <div class="lg:w-[520px]">
          <h2 class="text-lg font-medium text-[#5d2182] leading-tight lg:text-[26px]">
           Hacia el futuro: una visión compartida de economía circular
          </h2>
@@ -317,7 +322,7 @@
            clima y la biodiversidad.
           </p>
          </div>
-         <div class="flex gap-5 mt-4 lg:mt-4">
+         <div class="flex gap-5 mt-4">
           <div
            class="pt-[6px] relative after:absolute after:w-[1px] after:bg-black after:h-[calc(100%+16px)] lg:after:h-[calc(100%+16px)] after:left-[calc(50%-1px)]"
           >
@@ -328,7 +333,7 @@
            transformación inclusiva y sostenible.
           </p>
          </div>
-         <div class="flex gap-5 mt-4 lg:mt-4">
+         <div class="flex gap-5 mt-4">
           <div class="pt-[6px] relative">
            <div class="h-2 w-2 bg-black rounded-full"></div>
           </div>
@@ -339,7 +344,7 @@
         </div>
        </div>
        <div class="mt-9 lg:mt-24 lg:flex lg:gap-24">
-        <div class="lg:w-[652px]">
+        <div class="lg:w-[520px]">
          <h2 class="text-lg font-medium text-[#5d2182] leading-tight lg:text-[26px]">
           Pero primero, ¿qué es la economía circular?
          </h2>
@@ -349,12 +354,12 @@
          <div class="flex flex-col mt-7 gap-5 px-4 lg:gap-[60px]">
           <div class="flex gap-5 items-center lg:gap-7">
            <img
-            class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+            class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
             src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Eliminar_icon.png"
             alt="Eliminar"
            />
            <h5
-            class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-2xl"
+            class="text-base font-medium text-[#5d2182] leading-tight flex-1 lg:text-xl"
            >
             Eliminar los residuos <br />
             y la contaminación
@@ -362,12 +367,12 @@
           </div>
           <div class="flex gap-5 items-center lg:gap-7">
            <img
-            class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+            class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
             src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Circular_icon.png"
             alt="Circular"
            />
            <h5
-            class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-2xl"
+            class="text-base font-medium text-[#5d2182] leading-tight flex-1 lg:text-xl"
            >
             Circular los productos <br />
             y materiales
@@ -375,12 +380,12 @@
           </div>
           <div class="flex gap-5 items-center lg:gap-7">
            <img
-            class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+            class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
             src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Regenerar_icon.png"
             alt="Regenerar"
            />
            <h5
-            class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-2xl"
+            class="text-base font-medium text-[#5d2182] leading-tight flex-1 lg:text-xl"
            >
             Regenerar la <br />
             naturaleza
@@ -390,7 +395,7 @@
         </div>
         <div class="lg:flex-1">
          <h3
-          class="text-base font-bold text-[#5d2182] leading-tight mt-10 lg:text-2xl"
+          class="text-base font-medium text-[#5d2182] leading-tight mt-10 lg:text-xl"
          >
           ¿Qué implica la economía circular?
          </h3>
@@ -404,7 +409,7 @@
            Transformación y cambio sistémico
           </p>
          </div>
-         <div class="flex gap-5 mt-4 lg:mt-4">
+         <div class="flex gap-5 mt-4">
           <div
            class="pt-[6px] relative after:absolute after:w-[1px] after:bg-black after:h-[calc(100%+16px)] lg:after:h-[calc(100%+16px)] after:left-[calc(50%-1px)]"
           >
@@ -414,7 +419,7 @@
            Prosperidad, bienestar y resiliencia a largo plazo
           </p>
          </div>
-         <div class="flex gap-5 mt-4 lg:mt-4">
+         <div class="flex gap-5 mt-4">
           <div
            class="pt-[6px] relative after:absolute after:w-[1px] after:bg-black after:h-[calc(100%+16px)] lg:after:h-[calc(100%+16px)] after:left-[calc(50%-1px)]"
           >
@@ -422,7 +427,7 @@
           </div>
           <p class="text-sm font-semibold lg:text-base">Diversidad e inclusión</p>
          </div>
-         <div class="flex gap-5 mt-4 lg:mt-4">
+         <div class="flex gap-5 mt-4">
           <div class="pt-[6px] relative">
            <div class="h-2 w-2 bg-black rounded-full"></div>
           </div>
@@ -432,7 +437,7 @@
          </div>
    
          <h3
-          class="text-base font-bold text-[#5d2182] leading-tight mt-10 lg:text-2xl"
+          class="text-base font-medium text-[#5d2182] leading-tight mt-10 lg:text-xl"
          >
           ¿De qué factores depende que hagamos realidad la economía circular?
          </h3>
@@ -444,7 +449,7 @@
           </div>
           <p class="text-sm font-semibold lg:text-base">Del diseño circular</p>
          </div>
-         <div class="flex gap-5 mt-4 lg:mt-4">
+         <div class="flex gap-5 mt-4">
           <div
            class="pt-[6px] relative after:absolute after:w-[1px] after:bg-black after:h-[calc(100%+16px)] lg:after:h-[calc(100%+16px)] after:left-[calc(50%-1px)]"
           >
@@ -454,7 +459,7 @@
            De los modelos de negocio circulares
           </p>
          </div>
-         <div class="flex gap-5 mt-4 lg:mt-4">
+         <div class="flex gap-5 mt-4">
           <div
            class="pt-[6px] relative after:absolute after:w-[1px] after:bg-black after:h-[calc(100%+16px)] lg:after:h-[calc(100%+16px)] after:left-[calc(50%-1px)]"
           >
@@ -464,7 +469,7 @@
            Del diseño de sistemas y ciclos inversos
           </p>
          </div>
-         <div class="flex gap-5 mt-4 lg:mt-4">
+         <div class="flex gap-5 mt-4">
           <div
            class="pt-[6px] relative after:absolute after:w-[1px] after:bg-black after:h-[calc(100%+16px)] lg:after:h-[calc(100%+16px)] after:left-[calc(50%-1px)]"
           >
@@ -474,7 +479,7 @@
            De contar con condiciones económicas para trabajar a gran escala
           </p>
          </div>
-         <div class="flex gap-5 mt-4 lg:mt-4">
+         <div class="flex gap-5 mt-4">
           <div class="pt-[6px] relative">
            <div class="h-2 w-2 bg-black rounded-full"></div>
           </div>
@@ -494,7 +499,7 @@
         class="px-5 pt-10 absolute top-0 flex flex-col justify-center lg:top-auto lg:p-0"
        >
         <h2
-         class="text-3xl font-bold text-[#3dd4ad] lg:text-[56px] lg:leading-[1.2] lg:max-w-[604px]"
+         class="font-medium text-[26px] leading-[1.1] text-[#3dd4ad] lg:text-[50px] lg:max-w-[604px]"
         >
          1. Imagina cómo se podrían generar resultados en toda la región a través
          de economía circular
@@ -507,7 +512,7 @@
        alt="economía circular"
       />
       <img
-       class="w-full hidden lg:block lg:!h-[649px] object-cover"
+       class="w-full hidden lg:block object-cover"
        src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Bloque5DK.png"
        alt="economía circular"
       />
@@ -520,7 +525,7 @@
        <div class="flex gap-5 mt-10 lg:gap-12 lg:mt-14 accordion">
         <div>
          <img
-          class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+          class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
           src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon1.png"
           alt="Icon 1"
          />
@@ -528,7 +533,7 @@
         <div class="flex flex-col flex-1 justify-center">
          <div class="flex items-center gap-3">
           <h4
-           class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-3xl lg:flex-auto"
+           class="text-base font-medium text-[#5d2182] leading-tight lg:text-[26px] flex-1 lg:flex-auto"
           >
            Una economía próspera que funcione con y para las personas
           </h4>
@@ -561,7 +566,7 @@
           </div>
          </div>
          <div class="accordion__content">
-          <p class="text-xs font-medium leading-tight mt-4 lg:text-2xl lg:mt-7">
+          <p class="text-sm font-normal mt-4 lg:text-base lg:mt-7">
            La diversificación económica y la adaptación de las cadenas de
            suministro pueden diseñarse de manera que incluyan a grupos antes
            excluidos, como negocios informales y comunidades indígenas o
@@ -584,7 +589,7 @@
        <div class="flex gap-5 mt-10 lg:gap-12 lg:mt-14 accordion">
         <div>
          <img
-          class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+          class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
           src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Icon2.png"
           alt="Icon 2"
          />
@@ -592,7 +597,7 @@
         <div class="flex flex-col flex-1 justify-center">
          <div class="flex items-center gap-3">
           <h4
-           class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-3xl lg:flex-auto"
+           class="text-base font-medium text-[#5d2182] leading-tight lg:text-[26px] flex-1 lg:flex-auto"
           >
            Una economía próspera que sea beneficiosa para el clima
           </h4>
@@ -625,7 +630,7 @@
           </div>
          </div>
          <div class="accordion__content">
-          <p class="text-xs font-medium leading-tight mt-4 lg:text-2xl lg:mt-7">
+          <p class="text-sm font-normal mt-4 lg:text-base lg:mt-7">
            Con la economía circular se reducen las emisiones de GEI en las cadenas
            de valor, eliminando residuos y contaminación. También se evitan las
            emisiones de la producción de nuevos materiales, circulando los
@@ -647,7 +652,7 @@
        <div class="flex gap-5 mt-10 lg:gap-12 lg:mt-14 accordion">
         <div>
          <img
-          class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+          class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
           src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Icon3.png"
           alt="Icon 3"
          />
@@ -655,7 +660,7 @@
         <div class="flex flex-col flex-1 justify-center">
          <div class="flex items-center gap-3">
           <h4
-           class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-3xl lg:flex-auto"
+           class="text-base font-medium text-[#5d2182] leading-tight lg:text-[26px] flex-1 lg:flex-auto"
           >
            Una economía que funcione en favor a la biodiversidad
           </h4>
@@ -688,7 +693,7 @@
           </div>
          </div>
          <div class="accordion__content">
-          <p class="text-xs font-medium leading-tight mt-4 lg:text-2xl lg:mt-7">
+          <p class="text-sm font-normal mt-4 lg:text-base lg:mt-7">
            Con la economía circular se reducirán los residuos y la contaminación y
            con ello, las amenazas a la biodiversidad. Al hacer circular productos y
            materiales, también se abrirá espacio para la biodiversidad. Al
@@ -715,7 +720,7 @@
         class="px-5 pt-10 absolute top-0 flex flex-col justify-center lg:top-auto lg:p-0"
        >
         <h2
-         class="text-3xl font-bold text-[#3dd4ad] tracking-[-0.6px] lg:text-[56px] lg:leading-[1.2] lg:max-w-[604px]"
+         class="font-medium text-[26px] leading-[1.1] text-[#3dd4ad] lg:text-[50px] lg:max-w-[604px]"
         >
          2. Imagina la transformación de productos, materiales <br class="hidden lg:block"> y prácticas en los
          principales sectores regionales
@@ -728,7 +733,7 @@
        alt="sectores regionales"
       />
       <img
-       class="w-full hidden lg:block lg:!h-[649px] object-cover"
+       class="w-full hidden lg:block object-cover"
        src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Bloque6DK.png"
        alt="sectores regionales"
       />
@@ -745,13 +750,13 @@
          <div class="flex items-center gap-5 lg:gap-12">
           <div>
            <img
-            class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+            class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
             src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1.png"
             alt="Icon 2_1"
            />
           </div>
           <h4
-           class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-3xl lg:flex-auto"
+           class="text-base font-medium text-[#5d2182] leading-tight lg:text-[26px] flex-1 lg:flex-auto"
           >
            Exploremos el sector de alimentos
           </h4>
@@ -785,7 +790,7 @@
          </div>
          <div class="accordion__content">
           <p
-           class="text-sm font-medium text-[#00a1de] leading-tight mt-5 mb-2 lg:text-2xl lg:mt-10 lg:mb-8 lg:leading-loose"
+           class="text-base font-medium text-[#00a1de] leading-tight mt-5 mb-2 lg:text-lg lg:mt-10 lg:mb-8"
           >
            Imagina un sistema en el que los alimentos y los coproductos orgánicos
            mejoran la biodiversidad, almacenan carbono y mejoran la salud de las
@@ -801,7 +806,7 @@
            </div>
            <div class="lg:max-h-[690px] lg:overflow-auto scrollBars lg:pr-4 lg:flex-1">
             <h5
-             class="text-sm font-bold text-[#fa9600] leading-tight my-7 lg:text-2xl lg:mt-0 lg:mb-8"
+             class="text-base font-medium text-[#fa9600] leading-tight my-7 lg:text-lg lg:mt-0 lg:mb-8"
             >
              Este es un sistema donde los alimentos son diseñados para funcionar en
              una economía circular en la que...
@@ -809,11 +814,11 @@
             <div class="flex flex-col gap-7 pr-9">
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_1.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                Se favorece una diversidad mayor de ingredientes, con un menor
                impacto que las opciones habiituales y que se producen regenerando
                la naturaleza.
@@ -821,22 +826,22 @@
              </div>
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_1.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                El desperdicio de alimentos se evita y redistribuye
                sistemáticamente.
               </p>
              </div>
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_1.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                Los materiales orgánicos de los coproductos y los residuos sólidos
                de las ciudades, se devuelven de manera segura al sistema
                alimentario.
@@ -844,21 +849,21 @@
              </div>
             </div>
             <h5
-             class="text-sm font-bold text-[#fa9600] leading-tight my-7 lg:text-2xl lg:my-14"
+             class="text-base font-medium text-[#fa9600] leading-tight my-7 lg:text-lg lg:mt-12 lg:mb-8"
             >
              En este sistema:
             </h5>
             <div class="flex flex-col gap-5">
              <div class="flex gap-7 lg:gap-10">
-              <p class="text-xs font-medium leading-tight lg:text-xl">1.</p>
-              <p class="text-xs font-medium leading-tight lg:text-xl">
+              <p class="text-sm font-normal lg:text-base">1.</p>
+              <p class="text-sm font-normal lg:text-base">
                Las granjas de todos los tamaños utilizan técnicas con resultados
                regenerativos en la producción de alimentos.
               </p>
              </div>
              <div class="flex gap-7 lg:gap-10">
-              <p class="text-xs font-medium leading-tight lg:text-xl">2.</p>
-              <p class="text-xs font-medium leading-tight lg:text-xl">
+              <p class="text-sm font-normal lg:text-base">2.</p>
+              <p class="text-sm font-normal lg:text-base">
                Los agricultores colaboran con empresas para dar información en la
                etapa de diseño de productos, así como los nuevos modelos de compra
                y contratación a largo plazo para la transición de cultivos simples
@@ -866,8 +871,8 @@
               </p>
              </div>
              <div class="flex gap-7 lg:gap-10">
-              <p class="text-xs font-medium leading-tight lg:text-xl">3.</p>
-              <p class="text-xs font-medium leading-tight lg:text-xl">
+              <p class="text-sm font-normal lg:text-base">3.</p>
+              <p class="text-sm font-normal lg:text-base">
                Los sistemas alimentarios ayudan a hacer frente al cambio climático.
               </p>
              </div>
@@ -883,13 +888,13 @@
          <div class="flex items-center gap-5 lg:gap-12">
           <div>
            <img
-            class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+            class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
             src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_2.png"
             alt="Icon 2_2"
            />
           </div>
           <h4
-           class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-3xl lg:flex-auto"
+           class="text-base font-medium text-[#5d2182] leading-tight lg:text-[26px] flex-1 lg:flex-auto"
           >
            Exploremos el sector de metales y minerales
           </h4>
@@ -923,7 +928,7 @@
          </div>
          <div class="accordion__content">
           <p
-           class="text-sm font-medium text-[#00a1de] leading-tight mt-5 mb-2 lg:text-2xl lg:mt-10 lg:mb-8 lg:leading-loose"
+           class="text-base font-medium text-[#00a1de] leading-tight mt-5 mb-2 lg:text-lg lg:mt-10 lg:mb-8"
           >
            Imagina un sistema en el que los minerales y metales circulan a través
            de diversas aplicaciones en negocios circulares.
@@ -938,7 +943,7 @@
            </div>
            <div class="lg:max-h-[690px] lg:overflow-auto scrollBars lg:pr-4 lg:flex-1">
             <h5
-             class="text-sm font-bold text-[#fa9600] leading-tight my-7 lg:text-2xl lg:mt-0 lg:mb-8"
+             class="text-base font-medium text-[#fa9600] leading-tight my-7 lg:text-lg lg:mt-0 lg:mb-8"
             >
              Este es un sistema donde los minerales y productos metálicos son
              diseñados para funcionar en una economía circular en la que...
@@ -946,43 +951,43 @@
             <div class="flex flex-col gap-7 pr-9">
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_2.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                Los minerales y metales se alquilan en lugar de venderse.
               </p>
              </div>
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_2.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                Los metales recuperados mediante actividades mineras urbanas se
                utilizan en bienes duraderos.
               </p>
              </div>
             </div>
             <h5
-             class="text-sm font-bold text-[#fa9600] leading-tight my-7 lg:text-2xl lg:my-14"
+             class="text-base font-medium text-[#fa9600] leading-tight my-7 lg:text-lg lg:mt-12 lg:mb-8"
             >
              En este sistema:
             </h5>
             <div class="flex flex-col gap-5">
              <div class="flex gap-7">
-              <p class="text-xs font-medium leading-tight lg:text-xl">1.</p>
-              <p class="text-xs font-medium leading-tight lg:text-xl">
+              <p class="text-sm font-normal lg:text-base">1.</p>
+              <p class="text-sm font-normal lg:text-base">
                El sector minero y su experiencia en materiales utilizan el diseño
                de economía circular y las oportunidades de gestión de los
                materiales para apoyar la transición energética.
               </p>
              </div>
              <div class="flex gap-7">
-              <p class="text-xs font-medium leading-tight lg:text-xl">2.</p>
-              <p class="text-xs font-medium leading-tight lg:text-xl">
+              <p class="text-sm font-normal lg:text-base">2.</p>
+              <p class="text-sm font-normal lg:text-base">
                Los modelos de negocio circulares en todas las operaciones del
                sector son la norma y generan beneficios que van más allá de los
                productos.
@@ -1000,13 +1005,13 @@
          <div class="flex items-center gap-5 lg:gap-12">
           <div>
            <img
-            class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+            class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
             src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_3.png"
             alt="Icon 2_2"
            />
           </div>
           <h4
-           class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-3xl lg:flex-auto"
+           class="text-base font-medium text-[#5d2182] leading-tight lg:text-[26px] flex-1 lg:flex-auto"
           >
            Exploremos el sector de construcción
           </h4>
@@ -1040,7 +1045,7 @@
          </div>
          <div class="accordion__content">
           <p
-           class="text-sm font-medium text-[#00a1de] leading-tight mt-5 mb-2 lg:text-2xl lg:mt-10 lg:mb-8 lg:leading-loose"
+           class="text-base font-medium text-[#00a1de] leading-tight mt-5 mb-2 lg:text-lg lg:mt-10 lg:mb-8"
           >
            Imagina un sistema en el que los edificios están diseñados para apoyar
            la vida y la circulación de materiales.
@@ -1055,7 +1060,7 @@
            </div>
            <div class="lg:max-h-[690px] lg:overflow-auto scrollBars lg:pr-4 lg:flex-1">
             <h5
-             class="text-sm font-bold text-[#fa9600] leading-tight my-7 lg:text-2xl lg:mt-0 lg:mb-8"
+             class="text-base font-medium text-[#fa9600] leading-tight my-7 lg:text-lg lg:mt-0 lg:mb-8"
             >
              Este es un sistema donde los edificios están diseñados para funcionar
              en una economía circular en la que...
@@ -1063,11 +1068,11 @@
             <div class="flex flex-col gap-7 pr-9">
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_3.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                Los edificios se diseñan desde el principio de forma modular y
                flexible, teniendo como fuente materiales que mejoran el bienestar
                de los residentes y minimizan el uso de nuevos materiales.
@@ -1075,11 +1080,11 @@
              </div>
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_3.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                Los edificios están diseñados para mantener y renovar sus
                componentes cuando sea necesario y pueden adaptarse a diferentes
                usos a lo largo del tiempo.
@@ -1087,11 +1092,11 @@
              </div>
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_2.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                Los edificios están diseñados para ser deconstruidos y, a través de
                la reutilización de sus componentes, estos materiales siguen
                circulando.
@@ -1099,50 +1104,50 @@
              </div>
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_2.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                Los materiales de construcción circulan en su más alto valor en los
                mercados secundarios de reutilización y reciclaje.
               </p>
              </div>
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_2.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                Los espacios de construcción se utilizan de manera eficiente gracias
                a los espacios compartidos y flexibles.
               </p>
              </div>
             </div>
             <h5
-             class="text-sm font-bold text-[#fa9600] leading-tight my-7 lg:text-2xl lg:my-14"
+             class="text-base font-medium text-[#fa9600] leading-tight my-7 lg:text-lg lg:mt-12 lg:mb-8"
             >
              En este sistema:
             </h5>
             <div class="flex flex-col gap-5">
              <div class="flex gap-7">
-              <p class="text-xs font-medium leading-tight lg:text-xl">1.</p>
-              <p class="text-xs font-medium leading-tight lg:text-xl">
+              <p class="text-sm font-normal lg:text-base">1.</p>
+              <p class="text-sm font-normal lg:text-base">
                Los espacios de construcción se utilizan de manera eficiente gracias
                a los espacios compartidos y flexibles.
               </p>
              </div>
              <div class="flex gap-7">
-              <p class="text-xs font-medium leading-tight lg:text-xl">2.</p>
-              <p class="text-xs font-medium leading-tight lg:text-xl">
+              <p class="text-sm font-normal lg:text-base">2.</p>
+              <p class="text-sm font-normal lg:text-base">
                La tecnología digital proporciona soluciones innovadoras y rápidos
                beneficios económicos.
               </p>
              </div>
              <div class="flex gap-7">
-              <p class="text-xs font-medium leading-tight lg:text-xl">3.</p>
-              <p class="text-xs font-medium leading-tight lg:text-xl">
+              <p class="text-sm font-normal lg:text-base">3.</p>
+              <p class="text-sm font-normal lg:text-base">
                Los mecanismos políticos y financieros y los nuevos términos
                contractuales están permitiendo que el sistema pase de la mentalidad
                lineal a los principios generales de la economía circular.
@@ -1160,13 +1165,13 @@
          <div class="flex items-center gap-5 lg:gap-12">
           <div>
            <img
-            class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+            class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
             src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_4.png"
             alt="Icon 2_2"
            />
           </div>
           <h4
-           class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-3xl lg:flex-auto"
+           class="text-base font-medium text-[#5d2182] leading-tight lg:text-[26px] flex-1 lg:flex-auto"
           >
            Exploremos el sector de plásticos
           </h4>
@@ -1200,7 +1205,7 @@
          </div>
          <div class="accordion__content">
           <p
-           class="text-sm font-medium text-[#00a1de] leading-tight mt-5 mb-2 lg:text-2xl lg:mt-10 lg:mb-8 lg:leading-loose"
+           class="text-base font-medium text-[#00a1de] leading-tight mt-5 mb-2 lg:text-lg lg:mt-10 lg:mb-8"
           >
            Imagina un sistema en el que los empaques y envases de plástico son
            diseñados para adaptarse a una economía circular.
@@ -1215,7 +1220,7 @@
            </div>
            <div class="lg:max-h-[690px] lg:overflow-auto scrollBars lg:pr-4 lg:flex-1">
             <h5
-             class="text-sm font-bold text-[#fa9600] leading-tight my-7 lg:text-2xl lg:mt-0 lg:mb-8"
+             class="text-base font-medium text-[#fa9600] leading-tight my-7 lg:text-lg lg:mt-0 lg:mb-8"
             >
              Este es un sistema donde empaques y envases de plástico son diseñados
              para funcionar en una economía circular en la que...
@@ -1223,11 +1228,11 @@
             <div class="flex flex-col gap-7 pr-9">
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_3.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                Todos los empaques y envases de plástico sean absolutamente
                necesarios y están diseñados para ser reutilizables, reciclables o
                compostables, mientras se eliminan todos los elementos y materiales
@@ -1236,11 +1241,11 @@
              </div>
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_2.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                Los envases de plástico se reutilizan ampliamente en varias
                aplicaciones, lo que reduce la necesidad de envases de un solo uso y
                la dependencia de materiales vírgenes.
@@ -1248,11 +1253,11 @@
              </div>
              <div class="flex items-center gap-5 lg:gap-8">
               <img
-               class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+               class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
                src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon2_1_2.png"
                alt="Icon 1 2"
               />
-              <p class="flex-1 text-xs font-medium leading-tight lg:text-xl">
+              <p class="flex-1 text-sm font-normal lg:text-base">
                Cuando ocurre el inevitable fin de uso, los envases de plástico se
                recirculan de vuelta al sistema, a través de una clasificación,
                recolección, logística y tecnología efectivas en cadenas de
@@ -1261,29 +1266,29 @@
              </div>
             </div>
             <h5
-             class="text-sm font-bold text-[#fa9600] leading-tight my-7 lg:text-2xl lg:my-14"
+             class="text-base font-medium text-[#fa9600] leading-tight my-7 lg:text-lg lg:mt-12 lg:mb-8"
             >
              En este sistema:
             </h5>
             <div class="flex flex-col gap-5">
              <div class="flex gap-7">
-              <p class="text-xs font-medium leading-tight lg:text-xl">1.</p>
-              <p class="text-xs font-medium leading-tight lg:text-xl">
+              <p class="text-sm font-normal lg:text-base">1.</p>
+              <p class="text-sm font-normal lg:text-base">
                Las soluciones en el origen se implementan a gran escala y evitan la
                creación de residuos en primer lugar.
               </p>
              </div>
              <div class="flex gap-7">
-              <p class="text-xs font-medium leading-tight lg:text-xl">2.</p>
-              <p class="text-xs font-medium leading-tight lg:text-xl">
+              <p class="text-sm font-normal lg:text-base">2.</p>
+              <p class="text-sm font-normal lg:text-base">
                Los compromisos voluntarios de la industria han sido pioneros en la
                transición, pero los mecanismos políticos y financieros permiten que
                las soluciones se implementen a gran escala.
               </p>
              </div>
              <div class="flex gap-7">
-              <p class="text-xs font-medium leading-tight lg:text-xl">3.</p>
-              <p class="text-xs font-medium leading-tight lg:text-xl">
+              <p class="text-sm font-normal lg:text-base">3.</p>
+              <p class="text-sm font-normal lg:text-base">
                Hay dos estrategias que están interconectadas, una de eliminación de
                envases de plástico innecesarios y problemáticos, y otra de
                desarrollo de modelos de reutilización para envases de plástico, son
@@ -1306,19 +1311,19 @@
         class="px-5 pt-10 absolute top-0 flex flex-col justify-center lg:top-auto lg:p-0"
        >
         <h2
-         class="text-3xl font-bold text-[#3dd4ad] tracking-[-0.6px] lg:text-[56px] lg:leading-[1.2] lg:max-w-[500px]"
+         class="font-medium text-[26px] leading-[1.1] text-[#3dd4ad] lg:text-[50px] lg:max-w-[500px]"
         >
          3. Manos a la obra para la transición a lo largo de la región
         </h2>
        </div>
       </div>
       <img
-       class="w-full lg:hidden max-h-[530px] object-cover"
+       class="w-full lg:hidden max-h-[420px] object-cover"
        src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Bloque7.png"
        alt="Manos a la obra"
       />
       <img
-       class="w-full hidden lg:block lg:!h-[649px] object-cover"
+       class="w-full hidden lg:block object-cover"
        src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Bloque7DK.png"
        alt="Manos a la obra"
       />
@@ -1333,13 +1338,13 @@
          <div class="flex items-center gap-5 lg:gap-12">
           <div>
            <img
-            class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+            class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
             src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon3_1.png"
             alt="Icon 3_1"
            />
           </div>
           <h4
-           class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-3xl lg:flex-auto"
+           class="text-base font-medium text-[#5d2182] leading-tight lg:text-[26px] flex-1 lg:flex-auto"
           >
            Formuladores de políticas: <br class="lg:hidden" />
            los facilitadores
@@ -1374,7 +1379,7 @@
          </div>
          <div class="accordion__content">
           <p
-           class="text-xs font-medium leading-tight mt-4 mb-2 lg:text-xl lg:my-12"
+           class="text-sm font-normal mt-4 mb-2 lg:text-base lg:my-10"
           >
            Los gobiernos pueden establecer una dirección clara a seguir y crear los
            incentivos y requisitos de apoyo que pueden conducir a una
@@ -1387,15 +1392,15 @@
             class="flex gap-5 mt-7 items-center lg:flex-col lg:mt-0 lg:w-full lg:max-w-[274px]"
            >
             <div
-             class="relative w-[70px] h-[70px] border-4 border-solid border-[#522682] rounded-full flex items-center justify-center after:w-[1px] after:-z-10 after:h-[calc(100%-20px)] after:bg-[#522682] after:absolute after:top-[100%] after:left-[calc(50%-1px)] lg:w-[177px] lg:h-[177px] lg:border-[8px] lg:after:left-[100%] lg:after:top-[50%] lg:after:h-[3px] lg:after:w-[calc(100%-40px)] bg-white"
+             class="relative w-[70px] h-[70px] border-4 border-solid border-[#522682] rounded-full flex items-center justify-center after:w-[1px] after:-z-10 after:h-[calc(100%-20px)] after:bg-[#522682] after:absolute after:top-[100%] after:left-[calc(50%-1px)] lg:w-[120px] lg:h-[120px] lg:border-[6px] lg:after:left-[100%] lg:after:top-[50%] lg:after:h-[3px] lg:after:w-[calc(100%+4px)] bg-white"
             >
              <div
-              class="bg-[#522682] text-white text-[10px] rounded-full h-10 w-10 flex items-center justify-center pb-1 lg:h-24 lg:w-24 lg:text-xl"
+              class="bg-[#522682] text-white text-[10px] rounded-full h-10 w-10 flex items-center justify-center pb-1 lg:h-16 lg:w-16 lg:text-lg"
              >
               Meta 1
              </div>
             </div>
-            <p class="text-xs font-medium lg:text-xl lg:text-center">
+            <p class="text-sm font-normal lg:text-base lg:text-center">
              Estimular el diseño para <br />
              la economía circular
             </p>
@@ -1404,15 +1409,15 @@
             class="flex gap-5 mt-9 items-center lg:flex-col lg:mt-0 lg:w-full lg:max-w-[274px]"
            >
             <div
-             class="relative w-[70px] h-[70px] border-4 border-solid border-[#3DD4AD] rounded-full flex items-center justify-center after:w-[1px] after:-z-10 after:h-[calc(100%-20px)] after:bg-[#522682] after:absolute after:top-[100%] after:left-[calc(50%-1px)] lg:w-[177px] lg:h-[177px] lg:border-[8px] lg:after:left-[100%] lg:after:top-[50%] lg:after:h-[3px] lg:after:w-[calc(100%-40px)] bg-white"
+             class="relative w-[70px] h-[70px] border-4 border-solid border-[#3DD4AD] rounded-full flex items-center justify-center after:w-[1px] after:-z-10 after:h-[calc(100%-20px)] after:bg-[#522682] after:absolute after:top-[100%] after:left-[calc(50%-1px)] lg:w-[120px] lg:h-[120px] lg:border-[6px] lg:after:left-[100%] lg:after:top-[50%] lg:after:h-[3px] lg:after:w-[calc(100%+4px)] bg-white"
             >
              <div
-              class="bg-[#3DD4AD] text-white text-[10px] rounded-full h-10 w-10 flex items-center justify-center pb-1 lg:h-24 lg:w-24 lg:text-xl"
+              class="bg-[#3DD4AD] text-white text-[10px] rounded-full h-10 w-10 flex items-center justify-center pb-1 lg:h-16 lg:w-16 lg:text-lg"
              >
               Meta 2
              </div>
             </div>
-            <p class="text-xs font-medium lg:text-xl lg:text-center">
+            <p class="text-sm font-normal lg:text-base lg:text-center">
              Gestionar los recursos <br />
              para preservar el valor
             </p>
@@ -1421,15 +1426,15 @@
             class="flex gap-5 mt-9 items-center lg:flex-col lg:mt-0 lg:w-full lg:max-w-[274px]"
            >
             <div
-             class="relative w-[70px] h-[70px] border-4 border-solid border-[#00A1DE] rounded-full flex items-center justify-center after:w-[1px] after:-z-10 after:h-[calc(100%-20px)] after:bg-[#522682] after:absolute after:top-[100%] after:left-[calc(50%-1px)] lg:w-[177px] lg:h-[177px] lg:border-[8px] lg:after:left-[100%] lg:after:top-[50%] lg:after:h-[3px] lg:after:w-[calc(100%-40px)] bg-white"
+             class="relative w-[70px] h-[70px] border-4 border-solid border-[#00A1DE] rounded-full flex items-center justify-center after:w-[1px] after:-z-10 after:h-[calc(100%-20px)] after:bg-[#522682] after:absolute after:top-[100%] after:left-[calc(50%-1px)] lg:w-[120px] lg:h-[120px] lg:border-[6px] lg:after:left-[100%] lg:after:top-[50%] lg:after:h-[3px] lg:after:w-[calc(100%+4px)] bg-white"
             >
              <div
-              class="bg-[#00A1DE] text-white text-[10px] rounded-full h-10 w-10 flex items-center justify-center pb-1 lg:h-24 lg:w-24 lg:text-xl"
+              class="bg-[#00A1DE] text-white text-[10px] rounded-full h-10 w-10 flex items-center justify-center pb-1 lg:h-16 lg:w-16 lg:text-lg"
              >
               Meta 3
              </div>
             </div>
-            <p class="text-xs font-medium lg:text-xl lg:text-center">
+            <p class="text-sm font-normal lg:text-base lg:text-center">
              Hacer que la <br />
              economía funcione
             </p>
@@ -1438,15 +1443,15 @@
             class="flex gap-5 mt-9 items-center lg:flex-col lg:mt-0 lg:w-full lg:max-w-[274px]"
            >
             <div
-             class="relative w-[70px] h-[70px] border-4 border-solid border-[#FA9600] rounded-full flex items-center justify-center after:w-[1px] after:-z-10 after:h-[calc(100%-20px)] after:bg-[#522682] after:absolute after:top-[100%] after:left-[calc(50%-1px)] lg:w-[177px] lg:h-[177px] lg:border-[8px] lg:after:left-[100%] lg:after:top-[50%] lg:after:h-[3px] lg:after:w-[calc(100%-40px)] bg-white"
+             class="relative w-[70px] h-[70px] border-4 border-solid border-[#FA9600] rounded-full flex items-center justify-center after:w-[1px] after:-z-10 after:h-[calc(100%-20px)] after:bg-[#522682] after:absolute after:top-[100%] after:left-[calc(50%-1px)] lg:w-[120px] lg:h-[120px] lg:border-[6px] lg:after:left-[100%] lg:after:top-[50%] lg:after:h-[3px] lg:after:w-[calc(100%+4px)] bg-white"
             >
              <div
-              class="bg-[#FA9600] text-white text-[10px] rounded-full h-10 w-10 flex items-center justify-center pb-1 lg:h-24 lg:w-24 lg:text-xl"
+              class="bg-[#FA9600] text-white text-[10px] rounded-full h-10 w-10 flex items-center justify-center pb-1 lg:h-16 lg:w-16 lg:text-lg"
              >
               Meta 4
              </div>
             </div>
-            <p class="text-xs font-medium lg:text-xl lg:text-center">
+            <p class="text-sm font-normal lg:text-base lg:text-center">
              Invertir en innovación, <br />
              infraestructura y habilidades
             </p>
@@ -1455,15 +1460,15 @@
             class="flex gap-5 mt-9 items-center lg:flex-col lg:mt-0 lg:w-full lg:max-w-[274px]"
            >
             <div
-             class="relative w-[70px] h-[70px] border-4 border-solid border-[#522682] rounded-full flex items-center justify-center lg:w-[177px] lg:h-[177px] lg:border-[8px] bg-white"
+             class="relative w-[70px] h-[70px] border-4 border-solid border-[#522682] rounded-full flex items-center justify-center lg:w-[120px] lg:h-[120px] lg:border-[6px] bg-white"
             >
              <div
-              class="bg-[#522682] text-white text-[10px] rounded-full h-10 w-10 flex items-center justify-center pb-1 lg:h-24 lg:w-24 lg:text-xl"
+              class="bg-[#522682] text-white text-[10px] rounded-full h-10 w-10 flex items-center justify-center pb-1 lg:h-16 lg:w-16 lg:text-lg"
              >
               Meta 5
              </div>
             </div>
-            <p class="text-xs font-medium lg:text-xl lg:text-center">
+            <p class="text-sm font-normal lg:text-base lg:text-center">
              Colaborar para el <br />
              cambio de sistema
             </p>
@@ -1485,7 +1490,7 @@
             href="https://policy.ellenmacarthurfoundation.org/universal-policy-goals"
             target="_blank"
             rel="noopener noreferrer"
-            class="font-openSans flex-1 !text-xs font-medium !underline !text-[#8c868b] lg:!text-xl lg:flex-initial"
+            class="font-openSans flex-1 !text-xs font-medium !underline !text-[#8c868b] lg:!text-base lg:flex-initial"
            >
             *Fundación Ellen MacArthur, ‘Objetivos universales de políticas para la
             economía circular’, 2021
@@ -1500,13 +1505,13 @@
          <div class="flex items-center gap-5 lg:gap-12">
           <div>
            <img
-            class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+            class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
             src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon3_2.png"
             alt="Icon 3_2"
            />
           </div>
           <h4
-           class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-3xl lg:flex-auto"
+           class="text-base font-medium text-[#5d2182] leading-tight lg:text-[26px] flex-1 lg:flex-auto"
           >
            Empresas: <br class="lg:hidden" />
            los implementadores
@@ -1542,13 +1547,13 @@
          <div class="accordion__content">
           <div class="lg:flex lg:gap-16">
            <div class="lg:max-w-[740px] lg:flex-1">
-            <p class="text-xs font-medium leading-tight mt-5 lg:text-xl lg:my-11">
+            <p class="text-sm font-normal mt-5 lg:text-base lg:my-11">
              Las empresas de la región de todos los tamaños, desde las pequeñas
              hasta las más grandes, pueden impulsar cambios internos para la
              transición.
             </p>
             <h5
-             class="text-sm font-bold text-[#5d2182] leading-tight my-7 lg:text-xl lg:my-10"
+             class="text-base font-medium text-[#5d2182] my-7 lg:text-xl lg:my-10"
             >
              Deben actual en los siguientes aspectos:
             </h5>
@@ -1558,52 +1563,52 @@
              >
               <div class="h-2 w-2 bg-black rounded-full"></div>
              </div>
-             <p class="text-sm font-bold lg:text-xl">Estrategia y planificación</p>
+             <p class="text-sm font-semibold lg:text-base">Estrategia y planificación</p>
             </div>
-            <div class="flex gap-5 mt-4 lg:mt-7">
+            <div class="flex gap-5 mt-4">
              <div
               class="pt-[6px] relative after:absolute after:w-[1px] after:bg-black after:h-[calc(100%+16px)] lg:after:h-[calc(100%+16px)] after:left-[calc(50%-1px)]"
              >
               <div class="h-2 w-2 bg-black rounded-full"></div>
              </div>
-             <p class="text-sm font-bold lg:text-xl">Innovación</p>
+             <p class="text-sm font-semibold lg:text-base">Innovación</p>
             </div>
-            <div class="flex gap-5 mt-4 lg:mt-7">
+            <div class="flex gap-5 mt-4">
              <div
               class="pt-[6px] relative after:absolute after:w-[1px] after:bg-black after:h-[calc(100%+16px)] lg:after:h-[calc(100%+16px)] after:left-[calc(50%-1px)]"
              >
               <div class="h-2 w-2 bg-black rounded-full"></div>
              </div>
-             <p class="text-sm font-bold lg:text-xl">Personas y habilidades</p>
+             <p class="text-sm font-semibold lg:text-base">Personas y habilidades</p>
             </div>
-            <div class="flex gap-5 mt-4 lg:mt-7">
+            <div class="flex gap-5 mt-4">
              <div
               class="pt-[6px] relative after:absolute after:w-[1px] after:bg-black after:h-[calc(100%+16px)] lg:after:h-[calc(100%+16px)] after:left-[calc(50%-1px)]"
              >
               <div class="h-2 w-2 bg-black rounded-full"></div>
              </div>
-             <p class="text-sm font-bold lg:text-xl">Operaciones</p>
+             <p class="text-sm font-semibold lg:text-base">Operaciones</p>
             </div>
-            <div class="flex gap-5 mt-4 lg:mt-7">
+            <div class="flex gap-5 mt-4">
              <div
               class="pt-[6px] relative after:absolute after:w-[1px] after:bg-black after:h-[calc(100%+16px)] lg:after:h-[calc(100%+16px)] after:left-[calc(50%-1px)]"
              >
               <div class="h-2 w-2 bg-black rounded-full"></div>
              </div>
-             <p class="text-sm font-bold lg:text-xl">
+             <p class="text-sm font-semibold lg:text-base">
               Productos, materiales y servicios
              </p>
             </div>
-            <div class="flex gap-5 mt-4 mb-6 lg:mt-7">
+            <div class="flex gap-5 mt-4 mb-6">
              <div class="pt-[6px] relative">
               <div class="h-2 w-2 bg-black rounded-full"></div>
              </div>
-             <p class="text-sm font-bold lg:text-xl">
+             <p class="text-sm font-semibold lg:text-base">
               Medir el progreso y presentar informes
              </p>
             </div>
            </div>
-           <div class="lg:flex-1 lg:max-w-[720px]">
+           <div class="lg:flex-1 lg:max-w-[720px] lg:my-11">
              <img
               class="w-full object-contain"
               src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Imagen3_1.png"
@@ -1620,13 +1625,13 @@
          <div class="flex items-center gap-5 lg:gap-12">
           <div>
            <img
-            class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+            class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
             src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon3_3.png"
             alt="Icon 3_3"
            />
           </div>
           <h4
-           class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-3xl lg:flex-auto"
+           class="text-base font-medium text-[#5d2182] leading-tight lg:text-[26px] flex-1 lg:flex-auto"
           >
            Ciudadanos y sociedad civil:<br class="lg:hidden" />
            los participantes activos
@@ -1662,7 +1667,7 @@
          <div class="accordion__content">
           <div class="lg:flex lg:gap-16">
            <div class="lg:max-w-[740px] lg:flex-1">
-            <p class="text-xs font-medium leading-tight mt-5 lg:text-xl lg:my-11">
+            <p class="text-sm font-normal mt-5 lg:text-base lg:my-11">
              Para que las personas se involucren en la transición, bajo su rol de
              ciudadanos, clientes o consumidores, necesitan que los gobiernos y las
              empresas proporcionen sistemas e información, así como
@@ -1670,7 +1675,7 @@
              de la economía circular.
             </p>
             <h5
-             class="text-sm font-bold text-[#5d2182] leading-tight my-7 lg:text-xl lg:my-10"
+             class="text-base font-medium text-[#5d2182] my-7 lg:text-xl lg:my-10"
             >
              Para ello, los ciudadanos pueden:
             </h5>
@@ -1680,40 +1685,40 @@
              >
               <div class="h-2 w-2 bg-black rounded-full"></div>
              </div>
-             <p class="text-sm font-bold lg:text-xl">
+             <p class="text-sm font-semibold lg:text-base">
               Repensar cómo se satisfacen las necesidades
              </p>
             </div>
-            <div class="flex gap-5 mt-4 lg:mt-7">
+            <div class="flex gap-5 mt-4">
              <div
               class="pt-[6px] relative after:absolute after:w-[1px] after:bg-black after:h-[calc(100%+16px)] lg:after:h-[calc(100%+16px)] after:left-[calc(50%-1px)]"
              >
               <div class="h-2 w-2 bg-black rounded-full"></div>
              </div>
-             <p class="text-sm font-bold lg:text-xl">
+             <p class="text-sm font-semibold lg:text-base">
               Participar en planes de intercambio de productos
              </p>
             </div>
-            <div class="flex gap-5 mt-4 lg:mt-7">
+            <div class="flex gap-5 mt-4">
              <div
               class="pt-[6px] relative after:absolute after:w-[1px] after:bg-black after:h-[calc(100%+16px)] lg:after:h-[calc(100%+16px)] after:left-[calc(50%-1px)]"
              >
               <div class="h-2 w-2 bg-black rounded-full"></div>
              </div>
-             <p class="text-sm font-bold lg:text-xl">
+             <p class="text-sm font-semibold lg:text-base">
               Involucrarse en la reparación, renovción o remanufactura
              </p>
             </div>
-            <div class="flex gap-5 mt-4 mb-6 lg:mt-7">
+            <div class="flex gap-5 mt-4 mb-6">
              <div class="pt-[6px] relative">
               <div class="h-2 w-2 bg-black rounded-full"></div>
              </div>
-             <p class="text-sm font-bold lg:text-xl">
+             <p class="text-sm font-semibold lg:text-base">
               Participar en planes de recogida y devolución de productos
              </p>
             </div>
            </div>
-           <div class="lg:flex-1 lg:max-w-[720px]">
+           <div class="lg:flex-1 lg:max-w-[720px] lg:my-11">
              <img
               class="w-full object-contain"
               src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Imagen3_2.png"
@@ -1730,13 +1735,13 @@
          <div class="flex items-center gap-5 lg:gap-12">
           <div>
            <img
-            class="w-[50px] h-[50px] lg:w-auto lg:h-auto"
+            class="w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]"
             src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/icon3_4.png"
             alt="Icon 3_4"
            />
           </div>
           <h4
-           class="text-sm font-bold text-[#5d2182] leading-tight flex-1 lg:text-3xl lg:flex-auto"
+           class="text-base font-medium text-[#5d2182] leading-tight lg:text-[26px] flex-1 lg:flex-auto"
           >
            Inversores: <br class="lg:hidden" />los financiadores
           </h4>
@@ -1771,7 +1776,7 @@
          <div class="accordion__content">
           <div class="lg:flex lg:gap-16">
            <div class="lg:max-w-[740px] lg:flex-1">
-            <p class="text-xs font-medium leading-tight mt-5 lg:text-xl lg:my-11">
+            <p class="text-sm font-normal mt-5 lg:text-base lg:my-11">
              Los gobiernos, los inversores, los bancos comerciales, los bancos
              multilaterales de desarrollo, las instituciones financieras de
              desarrollo y otros servicios financieros pueden trabajar juntos para
@@ -1784,7 +1789,7 @@
              >
               <div class="h-2 w-2 bg-black rounded-full"></div>
              </div>
-             <p class="text-sm font-bold lg:text-xl">
+             <p class="text-sm font-semibold lg:text-base">
               Hay oportunidades tanto para los inversores públicos como para los
               privados, así como para las asociaciones público privadas y las
               soluciones financieras combinadas. Algunos de los mecanismos
@@ -1793,11 +1798,11 @@
               los instrumentos patrimoniales.
              </p>
             </div>
-            <div class="flex gap-5 mt-4 mb-6 lg:mt-7">
+            <div class="flex gap-5 mt-4 mb-6">
              <div class="pt-[6px] relative">
               <div class="h-2 w-2 bg-black rounded-full"></div>
              </div>
-             <p class="text-sm font-bold lg:text-xl">
+             <p class="text-sm font-semibold lg:text-base">
               Las inversiones públicas pueden centrarse en: inversiones en
               actividades en etapa inicial, en el financiamiento de proyectos de
               infraestructura física y digital, en invertir en el desarrollo de
@@ -1805,7 +1810,7 @@
              </p>
             </div>
            </div>
-           <div class="lg:flex-1 lg:max-w-[720px]">
+           <div class="lg:flex-1 lg:max-w-[720px] lg:my-11">
              <img
               class="w-full object-contain"
               src="https://coalicioneconomiacircular.org/wp-content/uploads/2022/10/Imagen3_3.png"
@@ -1823,15 +1828,15 @@
       <div
        class="lg:container lg:flex lg:items-center"
       >
-       <div class="p-6 lg:p-0 lg:pt-[72px]">
-        <h4 class="text-[#3dd4ad] text-lg font-bold leading-tight
+       <div class="p-6 lg:p-0 lg:pt-[72px] w-full">
+        <h4 class="text-[#3dd4ad] text-lg font-medium leading-tight
         lg:text-4xl">
          Este es el momento para la transición, pero… ¡debe ser una transición
          colaborativa!
         </h4>
         <p
-         class="text-white text-sm leading-snug mt-6
-         lg:text-3xl lg:font-normal lg:mt-10 lg:mb-6"
+         class="text-white text-base mt-6
+         lg:text-2xl lg:mt-10 lg:mb-6"
         >
          Requerimos niveles de colaboración sin precedentes dentro de los países,
          así como a través de las fronteras. La colaboración transnacional puede:
@@ -1870,8 +1875,8 @@
           </svg>
          </div>
          <div class="flex flex-col gap-4">
-          <h4 class="text-xs font-bold text-white leading-tight
-          lg:text-xl">
+          <h4 class="text-sm font-medium text-white leading-tight
+          lg:text-lg">
            Generar la alineación de políticas,
           </h4>
          </div>
@@ -1907,8 +1912,8 @@
           </svg>
          </div>
          <div class="flex flex-col gap-4">
-          <h4 class="text-xs font-bold text-white leading-tight
-          lg:text-xl">
+          <h4 class="text-sm font-medium text-white leading-tight
+          lg:text-lg">
            Promover la interoperabilidad de los planes de políticas y negocios,
           </h4>
          </div>
@@ -1944,8 +1949,8 @@
           </svg>
          </div>
          <div class="flex flex-col gap-4">
-          <h4 class="text-xs font-bold text-white leading-tight
-          lg:text-xl">
+          <h4 class="text-sm font-medium text-white leading-tight
+          lg:text-lg">
            Ayudar a fomentar una transición inclusiva y justa.
           </h4>
          </div>
@@ -1954,8 +1959,7 @@
    
         <div class="border-[3px] border-solid border-white px-7 py-8
         lg:px-10 lg:w-[790px] lg:flex-1">
-         <p class="text-white text-xs font-bold
-         lg:leading-tight lg:text-xl">
+         <p class="text-white text-sm font-medium lg:text-xl">
           Esta visión busca marcar un horizonte común en inspirar a los diversos
           pueblos de todos los países de América Latina y el Caribe. Además, puede
           crear un círculo virtuoso de intercambio de experiencias entre países
@@ -1969,7 +1973,7 @@
          href="https://coalicioneconomiacircular.org/wp-content/uploads/2022/02/ESPAN%CC%83OL-Ecoonomi%CC%81a-circular-en-Ame%CC%81rica-Latina-y-el-Caribe.pdf"
          target="_blank"
          rel="noopener noreferrer"
-         class="button-main text-xs font-bold text-white text-center px-10 mt-7 mb-4 lg:max-w-[660px] lg:text-lg lg:my-16 lg:h-20 lg:flex lg:items-center lg:justify-center lg:mx-auto"
+         class="button-main text-sm font-medium text-white text-center px-8 mt-7 mb-4 lg:max-w-[520px] lg:text-base lg:my-16 lg:h-16 lg:flex lg:items-center lg:justify-center lg:mx-auto"
          >Para leer el documento <br class="lg:hidden" />
          completo, haz click aquí
         </a>
@@ -2079,6 +2083,20 @@
             modal.style.display = 'none'
           })
         })
+      </script>
+      <script>
+        const logo = document.querySelector('[data-id="4b6736b"]')
+        function handleResize (logo) {
+          if (window.innerWidth > 767) {
+             logo.style.marginLeft = '-30px'
+          } else {
+            logo.style.marginLeft = '0'
+          }
+        }
+        window.addEventListener('resize', function () {
+          handleResize(logo)
+        })
+        handleResize(logo)
       </script>
   </body>
 </html>
